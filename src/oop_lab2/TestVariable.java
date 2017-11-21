@@ -47,7 +47,7 @@ public class TestVariable {
         m*=10; //m = m*10; m =170
         System.out.println(m);
 
-        
+
         //Boolean
         boolean b = true;
         boolean u = false;
