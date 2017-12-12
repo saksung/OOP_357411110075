@@ -6,8 +6,8 @@ public class TestVariable {
 
     public static void main (String [] args) {
         //Integer
-        int i;
-        i = 10;
+        int i = 10;
+
         System.out.println("i=" + i)
         int j = 20;
         System.out.println("j=" + j);
