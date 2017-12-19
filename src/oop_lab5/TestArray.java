@@ -35,6 +35,7 @@ public class TestArray {
    // int num[]=new int[500];
   //  num[-1]=10;
   //  num[500]=20;
+        //1//
 
     }//main
 }//class
