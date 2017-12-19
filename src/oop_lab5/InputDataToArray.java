@@ -22,7 +22,7 @@ private static void summation(int[]num){
             total+= num[i];
 
         }
-        System.out.println("The summation of"+"value in array is : "+total);
+        System.out.println("\nThe summation of"+"value in array is : "+total);
     System.out.println("The average value"+"in array is : "+total/MAX);
 }
 
