@@ -45,14 +45,15 @@ public static String getName()throws IOException{
     }
 
 
-    public static void main(String[]args){
+    public static void main(String[]args) throws IOException {
     String Name =getName();
     String address =getAddress();
     String id = getStdID();
     String fac = getFaculty();
     String email = getEmail();
+
     System.out.println(Name +"\n"  +address+"\n"  +id+"\n" + fac +"\n" + email+"\n");
-       System.out.println(getName()+ "\n")+getAddress();
+       System.out.println(getName()+ "\n"+getAddress());
     }
 
 
