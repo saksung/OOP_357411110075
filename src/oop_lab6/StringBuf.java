@@ -19,3 +19,4 @@ public class StringBuf {
 
     }//main
 }//class
+//class
