@@ -21,7 +21,7 @@ public class myArry2D {
         BufferPoolMXBean reader = new BufferdReader(new InputStreamReader(System.in));
         System.out.println("Enter an integer: ");
         for (int i=0; i<num.length;i++ {
-            for  (int j=0; j< num [i].length;i++){
+            for  (int j=0; j< num [i].length;j++){
                 System.out.println("num["+j+"]["+j+"]:");
                 num[i][j]=Integer.parseInt(reade.readLine());
             }//j
@@ -38,6 +38,7 @@ public class myArry2D {
                 System.out.println(num[i][j]+"" );
 
             }//j
+            System.out.println();
         }//i
     }//ShowData
 }//class
