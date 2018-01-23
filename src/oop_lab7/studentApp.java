@@ -9,11 +9,16 @@ public class studentApp {
         student1.setFaculty("Management Technology");
         student1.setName("Boy Saiyai");
         System.out.println(student1.toString());
+
         Student student2 = new Student("22222222222","Management","Business Management","Girl Songkhla");
         System.out.println(student2.toString());
+        student2.setName("Girl Trang");
+
         Student student3 = new Student();
-        student3= inputdata(student3);
-        System.out.println(student3.toString());
+       // student3= inputdata(student3);
+       // System.out.println(student3.toString());
+        System.out.println(student1.gender);
+        System.out.println(Student.gender);
     }//main
     private static Student inputdata (Student s){
         Scanner scanner = new Scanner(System.in);

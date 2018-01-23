@@ -14,8 +14,8 @@ public class Student {
                 ", faculty='" + faculty + '\'' +
                 ", name='" + name + '\'' +
                 '}';
-    }
-
+    }//toString
+public String gender =" Male";
     private String id;
     private  String major;
     private  String faculty;
